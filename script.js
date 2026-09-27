@@ -60,8 +60,52 @@ const quizQuestions = [
       { text: "Ag", correct: false },
     ],
   },
+  {
+    question: "Which language is primarily used to style web pages?",
+    answers: [
+      { text: "HTML", correct: false },
+      { text: "CSS", correct: true },
+      { text: "JavaScript", correct: false },
+      { text: "Python", correct: false },
+    ],
+  },
+  {
+    question: "Which HTML tag is used to create a hyperlink?",
+    answers: [
+      { text: "<link>", correct: false },
+      { text: "<a>", correct: true },
+      { text: "<href>", correct: false },
+      { text: "<url>", correct: false },
+    ],
+  },
+  {
+    question: "Which JavaScript keyword is used to declare a constant variable?",
+    answers: [
+      { text: "var", correct: false },
+      { text: "let", correct: false },
+      { text: "const", correct: true },
+      { text: "constant", correct: false },
+    ],
+  },
+  {
+    question: "Which method is used to add an element at the end of a JavaScript array?",
+    answers: [
+      { text: "push()", correct: true },
+      { text: "pop()", correct: false },
+      { text: "shift()", correct: false },
+      { text: "add()", correct: false },
+    ],
+  },
+  {
+    question: "What does DOM stand for in JavaScript?",
+    answers: [
+      { text: "Data Object Model", correct: false },
+      { text: "Document Object Model", correct: true },
+      { text: "Document Oriented Method", correct: false },
+      { text: "Digital Object Management", correct: false },
+    ],
+  },
 ];
-
 // QUIZ STATE VARS
 let currentQuestionIndex = 0;
 let score = 0;
